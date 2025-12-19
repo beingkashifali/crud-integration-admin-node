@@ -9,9 +9,7 @@ const port = process.env.PORT;
 connectDB();
 app.use(
   cors({
-    origin:
-      "https://admin-products-72dvkowkj-kashif-alis-projects-548d7eb5.vercel.app",
-    methods: ["GET", "POST", "PUT", "DELETE"],
+    origin: "https://crud-integration-admin-vite-xi.vercel.app/",
   })
 );
 app.use(express.json());
