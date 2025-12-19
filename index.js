@@ -10,7 +10,8 @@ connectDB();
 app.use(
   cors({
     origin:
-      "https://admin-products-1jfvxnaml-kashif-alis-projects-548d7eb5.vercel.app/",
+      "https://admin-products-72dvkowkj-kashif-alis-projects-548d7eb5.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
 app.use(express.json());
