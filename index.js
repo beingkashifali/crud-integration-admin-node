@@ -9,7 +9,8 @@ const port = process.env.PORT;
 connectDB();
 app.use(
   cors({
-    origin: "https://admin-products-weld.vercel.app",
+    origin:
+      "https://admin-products-1jfvxnaml-kashif-alis-projects-548d7eb5.vercel.app/",
   })
 );
 app.use(express.json());
