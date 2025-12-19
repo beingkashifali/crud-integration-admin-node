@@ -9,9 +9,9 @@ const port = process.env.PORT;
 connectDB();
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://admin-products-weld.vercel.app"],
+    origin: "https://admin-products-weld.vercel.app",
   })
-); // {origin:'http://localhost:5173'}
+);
 app.use(express.json());
 app.use("/", productRouter);
 
